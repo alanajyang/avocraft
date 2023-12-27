@@ -1,5 +1,7 @@
 package net.alana.modid;
 
+import net.alana.modid.block.ModBlocks;
+import net.alana.modid.item.ModItemGroups;
 import net.alana.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

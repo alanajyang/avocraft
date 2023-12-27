@@ -1,4 +1,8 @@
 {
   "item.tutorialmod.tea" : "Tea",
-  "item.tutorialmod.tea_leaf" : "Tea Leaf"
+  "item.tutorialmod.tea_leaf" : "Tea Leaf",
+
+  "block.tutorialmod.tea_leaves": "Tea Leaves",
+
+  "itemgroup.tea" : "Tea Tutorial Group"
 }
