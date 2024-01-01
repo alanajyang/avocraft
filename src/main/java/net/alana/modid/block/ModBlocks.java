@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block TEA_LEAVES = registerBlock("tea_leaves",
-            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_LEAVES)));
+            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_LEAVES).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

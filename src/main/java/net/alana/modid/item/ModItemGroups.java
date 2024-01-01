@@ -17,6 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TEA)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TEA);
                         entries.add(ModItems.TEA_LEAF);
+                        entries.add(ModItems.CUP);
+                        entries.add(ModItems.CUP_OF_TEA);
+                        entries.add(ModItems.ROASTED_TEA_LEAF);
                         entries.add(ModBlocks.TEA_LEAVES);
                     }).build());
     public static void registerItemGroups() {

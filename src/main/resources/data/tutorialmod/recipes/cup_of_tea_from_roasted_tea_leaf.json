@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "tutorialmod:cup"
+    },
+    {
+      "item": "tutorialmod:roasted_tea_leaf"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "tutorialmod:cup_of_tea"
+  }
+}

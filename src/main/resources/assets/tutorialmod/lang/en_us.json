@@ -1,6 +1,9 @@
 {
   "item.tutorialmod.tea" : "Tea",
   "item.tutorialmod.tea_leaf" : "Tea Leaf",
+  "item.tutorialmod.cup" : "Cup",
+  "item.tutorialmod.cup_of_tea" : "Cup of Tea",
+  "item.tutorialmod.roasted_tea_leaf" : "Roasted Tea Leaf",
 
   "block.tutorialmod.tea_leaves": "Tea Leaves",
 
