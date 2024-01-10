@@ -1,0 +1,7 @@
+// 1.20.4	2024-01-11T00:44:58.993945	Tutorial Mod/Recipes
+a0759038e32744c4dd0a3c2507d85d6b9d9bc1e1 data/tutorial-mod/recipes/cup_of_tea.json
+6db522e1db77c87c7ce6c3386d9278027a4a57c8 data/tutorial-mod/recipes/cup.json
+06e0fc16c76f37b861141b27749cf4b67cfb5bd3 data/tutorial-mod/advancements/recipes/misc/cup_of_tea.json
+b0cc901c07a8cbf2f90d35516d9bae335ea7d355 data/tutorial-mod/advancements/recipes/food/roasted_tea_leaf_from_smelting_tea_leaf.json
+21b2d894d9f72670c49c9b6c403b9e00dedd8825 data/tutorial-mod/advancements/recipes/misc/cup.json
+eb83016c491b1febc7b994d39dee4edf6a3c88d2 data/tutorial-mod/recipes/roasted_tea_leaf_from_smelting_tea_leaf.json

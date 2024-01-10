@@ -1,0 +1,8 @@
+// 1.20.4	2024-01-11T00:44:58.994711	Tutorial Mod/Model Definitions
+c65e354ef6f15ed05ee3b3925d0ee5f479b4d209 assets/tutorialmod/models/item/roasted_tea_leaf.json
+d572e963553edfa1565c4b9f51c2da438cc3438f assets/tutorialmod/models/block/tea_leaves.json
+b92a933d41c458dfd259806a2ac40e189151a7fb assets/tutorialmod/blockstates/tea_leaves.json
+e0edd4f2573edf1fa49124035b273a240f70e60b assets/tutorialmod/models/item/tea_leaf.json
+6d9715d5f2902b6e9f5d8e7d92b54c1e1f84d355 assets/tutorialmod/models/item/tea.json
+233740e3545d77d9cde04f8c2854809101c5943a assets/tutorialmod/models/item/cup_of_tea.json
+fecaa64eaa5d66b947685352fef49c2e7ee90591 assets/tutorialmod/models/item/cup.json

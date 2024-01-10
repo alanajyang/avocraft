@@ -1,8 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
+  "category": "misc",
   "cookingtime": 100,
   "experience": 0.15,
+  "group": "test",
   "ingredient": {
     "item": "tutorialmod:tea_leaf"
   },
