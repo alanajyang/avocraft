@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item CUP = registerItem("cup", new Item(new FabricItemSettings()));
     public static final Item CUP_OF_TEA = registerItem("cup_of_tea", new Item(new FabricItemSettings().food(ModFoodComponents.CUP_OF_TEA)));
     public static final Item ROASTED_TEA_LEAF = registerItem("roasted_tea_leaf", new Item(new FabricItemSettings()));
+    public static final Item AVOCADO = registerItem("avocado", new Item(new FabricItemSettings().food(ModFoodComponents.AVOCADO)));
 
     private static void addItemsToFoodAndDrinkTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(TEA);
@@ -23,6 +24,7 @@ public class ModItems {
         entries.add(CUP);
         entries.add(CUP_OF_TEA);
         entries.add(ROASTED_TEA_LEAF);
+        entries.add(AVOCADO);
     }
 
     private static Item registerItem(String name, Item item) {

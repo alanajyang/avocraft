@@ -4,8 +4,10 @@
   "item.tutorialmod.cup" : "Cup",
   "item.tutorialmod.cup_of_tea" : "Cup of Tea",
   "item.tutorialmod.roasted_tea_leaf" : "Roasted Tea Leaf",
+  "item.tutorialmod.avocado" : "Avocado",
 
   "block.tutorialmod.tea_leaves": "Tea Leaves",
+  "block.tutorialmod.chrysanthemum": "Chrysanthemum",
 
   "itemgroup.tea" : "Tea Tutorial Group"
 }

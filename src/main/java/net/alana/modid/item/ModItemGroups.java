@@ -20,6 +20,10 @@ public class ModItemGroups {
                         entries.add(ModItems.CUP);
                         entries.add(ModItems.CUP_OF_TEA);
                         entries.add(ModItems.ROASTED_TEA_LEAF);
+                        entries.add(ModItems.AVOCADO);
+
+                        entries.add(ModBlocks.CHRYSANTHEMUM);
+
                         entries.add(ModBlocks.TEA_LEAVES);
                     }).build());
     public static void registerItemGroups() {
