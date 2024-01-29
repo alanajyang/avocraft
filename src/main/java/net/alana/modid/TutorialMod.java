@@ -1,10 +1,13 @@
 package net.alana.modid;
 
 import net.alana.modid.block.ModBlocks;
+import net.alana.modid.entity.ModEntities;
+import net.alana.modid.entity.custom.AvoEntity;
 import net.alana.modid.item.ModItemGroups;
 import net.alana.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,7 +18,10 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.AVO, AvoEntity.createAvoAttributes());
 	}
 }

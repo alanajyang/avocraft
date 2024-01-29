@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ROASTED_TEA_LEAF);
                         entries.add(ModItems.AVOCADO);
 
+                        entries.add(ModItems.AVO_SPAWN_EGG);
+
                         entries.add(ModBlocks.CHRYSANTHEMUM);
 
                         entries.add(ModBlocks.TEA_LEAVES);
