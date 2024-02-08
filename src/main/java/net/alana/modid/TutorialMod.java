@@ -5,6 +5,7 @@ import net.alana.modid.entity.ModEntities;
 import net.alana.modid.entity.custom.AvoEntity;
 import net.alana.modid.item.ModItemGroups;
 import net.alana.modid.item.ModItems;
+import net.alana.modid.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -36,5 +37,7 @@ public class TutorialMod implements ModInitializer {
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVO_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVO_LEAVES, 30, 60);
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

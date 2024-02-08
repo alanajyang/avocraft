@@ -22,6 +22,8 @@ public class ModItems {
     public static final Item AVO_SPAWN_EGG = registerItem("avo_spawn_egg",
             new SpawnEggItem(ModEntities.AVO, 0x799C65, 0x995F40, new FabricItemSettings()));
 
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+
     private static void addItemsToFoodAndDrinkTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(TEA);
         entries.add(TEA_LEAF);

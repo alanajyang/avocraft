@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:avolog"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tutorialmod:avoplanks"
+  }
+}

@@ -16,6 +16,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
         getOrCreateTagBuilder(BlockTags.PLANKS)
                 .add(ModBlocks.AVO_PLANKS);
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)

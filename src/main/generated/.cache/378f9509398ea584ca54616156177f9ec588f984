@@ -1,4 +1,10 @@
-// 1.20.4	2024-01-28T17:19:32.901674	Tutorial Mod/Block Loot Tables
-0385b11927abe30a67fcb15329e366e8e546a280 data/tutorialmod/loot_tables/blocks/tea_leaves.json
+// 1.20.4	2024-02-08T12:07:16.344919	Tutorial Mod/Block Loot Tables
 948bcaeca8f15115f86a42891ce744a5ca3d502c data/tutorialmod/loot_tables/blocks/potted_chrysanthemum.json
 bbdc3bd7f5109710f8ed7ad772cf8669b1dd88d3 data/tutorialmod/loot_tables/blocks/chrysanthemum.json
+0199748fd40ba170a0333ae88db75eea0bfbdb58 data/tutorialmod/loot_tables/blocks/avolog.json
+0385b11927abe30a67fcb15329e366e8e546a280 data/tutorialmod/loot_tables/blocks/tea_leaves.json
+00f5c3248ebcb21d0366f40e763e93b8ac71e263 data/tutorialmod/loot_tables/blocks/avoplanks.json
+120feead27f368b7fc9386f5ebbac208342b059d data/tutorialmod/loot_tables/blocks/avowood.json
+f0de62cf0eba85288ab75d5699a6f13762c4544d data/tutorialmod/loot_tables/blocks/stripped_avolog.json
+2e3cd712c44a275ceaabb83d7f2f0f75e2e93ca7 data/tutorialmod/loot_tables/blocks/stripped_avowood.json
+a24817db61c0f81a20006637f04399b7a6fbe704 data/tutorialmod/loot_tables/blocks/avoleaves.json

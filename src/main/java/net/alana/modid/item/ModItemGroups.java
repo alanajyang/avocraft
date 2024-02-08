@@ -23,7 +23,6 @@ public class ModItemGroups {
                         entries.add(ModItems.AVOCADO);
                         entries.add(ModItems.AVO_SPAWN_EGG);
                         entries.add(ModBlocks.CHRYSANTHEMUM);
-                        entries.add(ModBlocks.TEA_LEAVES);
                         entries.add(ModBlocks.AVO_LOG);
                         entries.add(ModBlocks.AVO_PLANKS);
                         entries.add(ModBlocks.AVO_WOOD);
