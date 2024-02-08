@@ -22,6 +22,13 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TEA_LEAVES);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CHRYSANTHEMUM, ModBlocks.POTTED_CHRYSANTHEMUM, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerLog(ModBlocks.AVO_LOG).log(ModBlocks.AVO_LOG).wood(ModBlocks.AVO_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AVO_LOG).log(ModBlocks.STRIPPED_AVO_LOG).wood(ModBlocks.STRIPPED_AVO_WOOD);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AVO_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AVO_LEAVES);
+
     }
 
     @Override

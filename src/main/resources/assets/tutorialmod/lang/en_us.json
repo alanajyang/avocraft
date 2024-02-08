@@ -11,5 +11,13 @@
   "block.tutorialmod.tea_leaves": "Tea Leaves",
   "block.tutorialmod.chrysanthemum": "Chrysanthemum",
 
-  "itemgroup.tea" : "Tea Tutorial Group"
+  "itemgroup.tea" : "Tea Tutorial Group",
+
+
+  "block.tutorialmod.avolog" : "Avocado Log",
+  "block.tutorialmod.avowood" : "Avocado Wood",
+  "block.tutorialmod.stripped_avolog" : "Stripped Avocado Log",
+  "block.tutorialmod.stripped_avowood" : "Stripped Avocado Wood",
+  "block.tutorialmod.avoplanks" : "Avocado Planks",
+  "block.tutorialmod.avoleaves" : "Avocado Leaves"
 }

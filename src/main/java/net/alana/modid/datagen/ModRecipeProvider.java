@@ -1,5 +1,6 @@
 package net.alana.modid.datagen;
 
+import net.alana.modid.block.ModBlocks;
 import net.alana.modid.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -19,6 +20,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVO_PLANKS, 4)
+                .input(ModBlocks.AVO_LOG)
+                .criterion(hasItem(ModBlocks.AVO_LOG), conditionsFromItem(ModBlocks.AVO_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AVO_PLANKS)));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUP, 1)
                 .pattern("# #")
                 .pattern(" # ")

@@ -21,12 +21,15 @@ public class ModItemGroups {
                         entries.add(ModItems.CUP_OF_TEA);
                         entries.add(ModItems.ROASTED_TEA_LEAF);
                         entries.add(ModItems.AVOCADO);
-
                         entries.add(ModItems.AVO_SPAWN_EGG);
-
                         entries.add(ModBlocks.CHRYSANTHEMUM);
-
                         entries.add(ModBlocks.TEA_LEAVES);
+                        entries.add(ModBlocks.AVO_LOG);
+                        entries.add(ModBlocks.AVO_PLANKS);
+                        entries.add(ModBlocks.AVO_WOOD);
+                        entries.add(ModBlocks.STRIPPED_AVO_LOG);
+                        entries.add(ModBlocks.STRIPPED_AVO_WOOD);
+                        entries.add(ModBlocks.AVO_LEAVES);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for" + TutorialMod.Mod_ID);

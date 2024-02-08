@@ -3,10 +3,7 @@ package net.alana.modid.block;
 import net.alana.modid.TutorialMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowerBlock;
-import net.minecraft.block.FlowerPotBlock;
+import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -15,6 +12,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
+    public static final Block AVO_LOG = registerBlock("avolog",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block AVO_WOOD = registerBlock("avowood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_AVO_LOG = registerBlock("stripped_avolog",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_AVO_WOOD = registerBlock("stripped_avowood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+
+    public static final Block AVO_PLANKS = registerBlock("avoplanks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
+    public static final Block AVO_LEAVES = registerBlock("avoleaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
 
     public static final Block TEA_LEAVES = registerBlock("tea_leaves",
             new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_LEAVES).nonOpaque()));
