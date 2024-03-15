@@ -26,4 +26,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AVO_LOG);
 
     }
+
+
+
 }
+
+
